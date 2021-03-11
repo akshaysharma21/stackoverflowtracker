@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css"
+import {BrowserRouter as Router, Route} from "react-router-dom"
+//import all the components you built to use with the app
+import Navbar from "./components/navbar.component.js";
+import SearchTags from "./components/enter-tag.component";
+import WelcomePage from "./components/welcome-page.component";
+import Information from "./components/information.component"
 
+//add the components to the router
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar/>
+      <br/>
+      <Route path="/" component={WelcomePage}/>
+      <Route path="/searchTags" component={SearchTags}/>
+      <Route path="/information" component={Information}/>
+    </Router>  
   );
 }
 
