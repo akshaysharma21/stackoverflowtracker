@@ -6,7 +6,7 @@ This application is implemented using React.js which queries the stack overflow 
 
 **Queries**
 
-- **Latest: **The app displays a list of 10 latest questions related to the tags provided by the user.
+- **Latest:** The app displays a list of 10 latest questions related to the tags provided by the user.
 
 - **Most voted:** The app displays a list of 10 most voted questions from the past week related to the tags provided by the user.
 
@@ -28,9 +28,9 @@ This application is implemented using React.js framework. The development langua
 
 **Links to GitHub Repo and Docker Hub Image**
 
-**GitHub repo: **<https://github.com/akshaysharma21/stackoverflowtracker>
+**GitHub repo:** <https://github.com/akshaysharma21/stackoverflowtracker>
 
-**Docker Hub Image repo: **<https://hub.docker.com/repository/docker/akshaysharma21/stackoverflowtracker>
+**Docker Hub Image repo:** <https://hub.docker.com/repository/docker/akshaysharma21/stackoverflowtracker>
 
 <br/>
 
@@ -69,9 +69,9 @@ The Instructions are as follows:
 
 ***Select one of the following three options for query type:***
 
--   ***Newest:**** This will return a list of 10 newest queries sorted by creation date.*
--   ***Most Voted:**** This will return a list of 10 most voted queries sorted by creation date.*
--   ***Both:**** This will return an aggregated list of 10 newest and 10 most voted queries sorted by creation date.*
+-   ***Newest:*** *This will return a list of 10 newest queries sorted by creation date.*
+-   ***Most Voted:*** *This will return a list of 10 most voted queries sorted by creation date.*
+-   ***Both:*** *This will return an aggregated list of 10 newest and 10 most voted queries sorted by creation date.*
 
 *Press the **Search Tag** button*
 
