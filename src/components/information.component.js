@@ -19,6 +19,10 @@ export default class information extends Component{
                         <li><b>Most Voted:</b> This will return a list of 10 most voted queries sorted by creation date.</li>
                         <li><b>Both:</b> This will return an aggregated list of 10 newest and 10 most voted queries sorted by creation date.</li>
                     </ul>
+                    <br/>
+                    <p>Press the <b>Search Tag</b> button</p>
+                    <br/>
+                    <p>A list of collapsible elements will be displayed on the screen. Click on any question to reveal its contents and collapsible for its comments and answers. Click the comments collapsible to reveal the comments regarding the question. Click the answers collapsible to reveal a list of answers and collapsible answer comments for each answer. Click on the answer comments collapsible in this list to reveal the comments for the answer.</p>
                 </div>
             </div>
         )
